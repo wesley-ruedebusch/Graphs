@@ -2,7 +2,7 @@ from util import Stack, Queue
 
 def earliest_ancestor(ancestors, starting_node):
     
-    graph = get_graph(ancestors)
+    graph = get_graph(ancestors) #this will be used later for the get_graph
 
     s = Stack()
     s.push([starting_node])
