@@ -8,7 +8,8 @@ def earliest_ancestor(ancestors, starting_node):
     s.push([starting_node])
 
     # keep track of [distance, node]
-    earliest_node = [1, -1]
+    earliest_node = [1
+    , -1]
 
     while s.size() > 0:
         path = s.pop()
